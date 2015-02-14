@@ -33,7 +33,6 @@ def scale(vector,scale_x, scale_y, scale_z):
 def matrixMulti(X,Y):
 	result = [0,0,0,0]
 	for i in range(len(X)):
-		#print Y
 		for j in range(len(Y)):
 			result[i] += X[i][j] * Y[j]
 	return result
