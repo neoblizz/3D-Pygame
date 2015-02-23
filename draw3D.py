@@ -74,7 +74,7 @@ def drawObj(EDGES,index,color,width):
 ###################  Match Coordinate ##################
 ########################################################
 def xyz(x,y,z, orgin_x, orgin_y,angle2):
-	scale = 150
+	scale = 50
 	x = x * scale
 	y = y * scale
 	z = z * scale
